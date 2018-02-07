@@ -21,7 +21,7 @@ print()
 
 
 
-algo		= open('algos.txt').readlines()
+algo		= open("C:/Users/tomek/Documents/GitHub/CryptoInvestor/algos.txt").readlines()
 
 for i in range(len(algo)):
 	algo[i] = algo[i].strip().split('	= ')
